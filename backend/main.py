@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Any, List
+from typing import Any
 from pathlib import Path
 import google.generativeai as genai
 from PyPDF2 import PdfReader
